@@ -76,16 +76,6 @@ Open `frontend/mainpage.html` in your browser
 
 ---
 
-## 🌐 Live Demo (Optional)
-
-If you deployed this project, add the link here:
-
-```
-https://your-deployment-link.com
-```
-
----
-
 ## 📄 License
 
 This project is open source under the [MIT License](LICENSE).
