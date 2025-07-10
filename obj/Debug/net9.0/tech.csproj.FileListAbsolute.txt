@@ -1,4 +1,0 @@
-C:\Users\boyap\OneDrive\Desktop\tech\obj\Debug\net9.0\tech.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\boyap\OneDrive\Desktop\tech\obj\Debug\net9.0\tech.AssemblyInfoInputs.cache
-C:\Users\boyap\OneDrive\Desktop\tech\obj\Debug\net9.0\tech.AssemblyInfo.cs
-C:\Users\boyap\OneDrive\Desktop\tech\obj\Debug\net9.0\tech.csproj.CoreCompileInputs.cache

@@ -9,3 +9,13 @@ dump/
 
 # Logs
 npm-debug.log
+# Build output
+bin/
+obj/
+Debug/
+*.nuget.*
+*.cache
+*.g.props
+*.g.targets
+*.user
+project.assets.json
