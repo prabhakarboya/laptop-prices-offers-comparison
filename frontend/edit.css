@@ -1,0 +1,361 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding-top: 60px;  /* Ensures content doesn't hide behind the header */
+}
+
+/* Header Section */
+.header {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f4f4f4;
+    box-shadow: 0px 4px 6px rgb(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.himg {
+    width: 50px;
+    height: 50px;
+}
+
+.icon_name h2 {
+    margin-left: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 25px;
+    padding: 5px 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 250px;
+}
+
+.search-container input {
+    border: none;
+    outline: none;
+    padding: 8px;
+    width: 100%;
+    font-size: 16px;
+}
+
+.search-container button {
+    background: #007bff;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.search-container button:hover {
+    background: #0056b3;
+}
+
+/* Navigation Menu */
+.menu_area {
+    margin-right: 10px;
+}
+
+.menu_area ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    gap: 10px;
+}
+
+.menu_area ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 8px 16px;
+    display: inline-block;
+}
+
+.menu_area ul li a:hover {
+    background-color: none;
+    border-radius: 4px;
+}
+
+/* Price Range Filter */
+.header1 {
+    display: flex;
+    justify-content: center;
+    background-color: #f4f4f4;
+    padding: 10px 0;
+}
+
+.header1 ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+.header1 li {
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #eaeaea;
+}
+
+.header1 li:hover {
+    background-color: #ccc;
+}
+
+/* Main Content */
+.main_content {
+    background-image: url('laptop.avif');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: aliceblue;
+    padding: 20px;
+}
+
+.main_heading {
+    font-size: 36px;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.services .card1, .services .card2, .services .card3 {
+    width: 250px;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.services .card1_img, .services .card2_img, .services .card3_img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.about_us {
+    padding: 40px;
+    background-color: aliceblue;
+    text-align: justify;
+    max-width: 1000px;
+    margin: 0 auto;
+}.services_heading{
+    text-align: center;
+}
+
+/* Footer Section */
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer .address, .footer .contact {
+    margin-bottom: 10px;
+}
+
+/* Laptop List Page Styles */
+#laptop-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.laptop-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.laptop-item h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.laptop-item button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.laptop-item button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .menu_area ul {
+        flex-direction: column;
+    }
+
+    .main_content {
+        height: 400px;
+    }
+
+    .header1 ul {
+        flex-direction: column;
+    }
+
+    .services {
+        flex-direction: column;
+    }
+
+    .about_us {
+        padding: 20px;
+    }
+
+    #laptop-list {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .main_heading {
+        font-size: 28px;
+    }
+
+    .search-container {
+        width: 200px;
+    }
+
+    .services .card1, .services .card2, .services .card3 {
+        width: 100%;
+    }
+
+    #laptop-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Price Range Button Styles */
+.price-range {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px 0;
+    list-style-type: none;
+}
+
+.price-range-btn {
+    background-color: #f1f1f1;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    border: 1px solid #ddd;
+}
+
+.price-range-btn:hover {
+    background-color: #FFB97F;
+    transform: scale(1.05);
+}
+
+.price-range-btn:active {
+    transform: scale(0.98);
+}
+
+.price-range-btn:focus {
+    outline: none;
+}
+/* Base styling for the About Us section */
+.about-us {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    color: #333;
+    line-height: 1.7;
+  }
+  
+  /* Heading styles */
+  .about-us h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #222;
+    border-bottom: 2px solid #007BFF;
+    display: inline-block;
+    padding-bottom: 4px;
+  }
+  
+  /* Subheadings like Why Choose Us */
+  .about-us h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #007BFF;
+  }
+  
+  /* Bullet list style */
+  .about-us ul {
+    padding-left: 20px;
+    list-style: none;
+  }
+  
+  .about-us ul li {
+    position: relative;
+    padding-left: 28px;
+    margin-bottom: 12px;
+  }
+  
+  .about-us ul li::before {
+    content: '✔️';
+    position: absolute;
+    left: 0;
+    color: #007BFF;
+    font-size: 1.1rem;
+  }
+  
+  /* Paragraphs */
+  .about-us p {
+    margin-bottom: 15px;
+    font-size: 1rem;
+  }
+  

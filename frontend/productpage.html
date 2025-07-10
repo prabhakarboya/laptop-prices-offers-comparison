@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Laptop Details | TechPricer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      background-color: #f7f7f7;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    h1, h2, h3 {
+      color: #2c3e50;
+    }
+    .laptop-image {
+      max-width: 300px;
+      border-radius: 10px;
+      margin-right: 2rem;
+    }
+    .flex {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .specs, .prices {
+      margin-top: 1.5rem;
+    }
+    .platform {
+      background: #ecf0f1;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 8px;
+    }
+    .price {
+      font-size: 1.3rem;
+      font-weight: bold;
+      color: #27ae60;
+    }
+    .offers {
+      font-size: 0.9rem;
+      margin-top: 0.5rem;
+    }
+    .buy-btn {
+      margin-top: 10px;
+      padding: 10px 20px;
+      background-color: #3498db;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 id="laptop-name">Loading...</h1>
+    <div class="flex">
+     
+      <div>
+        <h3>Brand: <span id="brand"></span></h3>
+        <div class="specs">
+          <h3>Specifications:</h3>
+          <pre id="specs" style="white-space: pre-wrap; font-size: 1rem;"></pre>
+        </div>
+      </div>
+    </div>
+
+    <div class="prices">
+      <h2>Prices & Offers</h2>
+
+      <div class="platform">
+        <h3>Amazon</h3>
+        <div class="price" id="amazon-price"></div>
+        <div class="offers" id="amazon-offers"></div>
+        <a id="amazon-buy" href="#" class="buy-btn" target="_blank">Buy on Amazon</a>
+      </div>
+
+      <div class="platform">
+        <h3>Flipkart</h3>
+        <div class="price" id="flipkart-price"></div>
+        <div class="offers" id="flipkart-offers"></div>
+        <a id="flipkart-buy" href="#" class="buy-btn" target="_blank">Buy on Flipkart</a>
+      </div>
+
+      <div class="platform">
+        <h3>Croma</h3>
+        <div class="price" id="croma-price"></div>
+        <div class="offers" id="croma-offers"></div>
+        <a id="croma-buy" href="#" class="buy-btn" target="_blank">Buy on Croma</a>
+      </div>
+
+      <div class="platform" id="jiomart-platform">
+        <h3>JioMart</h3>
+        <div class="price" id="jiomart-price"></div>
+        <div class="offers" id="jiomart-offers"></div>
+        <a id="jiomart-buy" href="#" class="buy-btn" target="_blank">Buy on JioMart</a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    async function loadLaptopDetails() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const id = urlParams.get('id');
+      if (!id) {
+        document.getElementById('laptop-name').innerText = 'Invalid Laptop ID';
+        return;
+      }
+
+      try {
+        const response = await fetch(`http://localhost:5000/api/laptops/${id}`);
+        const laptop = await response.json();
+
+        if (!laptop) {
+          document.getElementById('laptop-name').innerText = 'Laptop not found';
+          return;
+        }
+
+        document.getElementById('laptop-name').innerText = laptop.title || 'Laptop Name';
+        document.getElementById('brand').innerText = laptop.brand || 'Brand not available';
+        document.getElementById('specs').innerText = laptop.specifications || 'No specifications available';
+       
+        document.getElementById('amazon-price').innerText = laptop.amazon ? `₹${laptop.amazon.price}` : 'Price not available';
+        document.getElementById('amazon-offers').innerText = laptop.amazon ? laptop.amazon.offers : 'No offers available';
+        document.getElementById('amazon-buy').href = laptop.amazon ? laptop.amazon.buy_link : '#';
+
+        // Flipkart
+        document.getElementById('flipkart-price').innerText = laptop.flipkart ? `₹${laptop.flipkart.price}` : 'Price not available';
+        document.getElementById('flipkart-offers').innerText = laptop.flipkart ? laptop.flipkart.offers : 'No offers available';
+        document.getElementById('flipkart-buy').href = laptop.flipkart ? laptop.flipkart.buy_link : '#';
+
+        // Croma
+        document.getElementById('croma-price').innerText = laptop.croma ? `₹${laptop.croma.price}` : 'Price not available';
+        document.getElementById('croma-offers').innerText = laptop.croma ? laptop.croma.offers : 'No offers available';
+        document.getElementById('croma-buy').href = laptop.croma ? laptop.croma.buy_link : '#';
+
+        // JioMart
+        if (laptop.jiomart) {
+          document.getElementById('jiomart-price').innerText = `₹${laptop.jiomart.price}`;
+          document.getElementById('jiomart-offers').innerText = laptop.jiomart.offers;
+          document.getElementById('jiomart-buy').href = laptop.jiomart.buy_link;
+        } else {
+          // Hide JioMart section if data is not available
+          document.getElementById('jiomart-platform').style.display = 'none';
+        }
+
+      } catch (error) {
+        console.error('Error fetching laptop details:', error);
+        document.getElementById('laptop-name').innerText = 'Error loading laptop details';
+      }
+    }
+
+    loadLaptopDetails();
+  </script>
+</body>
+</html>

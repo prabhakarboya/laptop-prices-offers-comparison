@@ -1,0 +1,26 @@
+{
+  "title": "Lenovo IdeaPad Gaming 3",
+  "laptop_name": "Lenovo IdeaPad Gaming 3 AMD Ryzen 5 5600H - (8GB RAM/512GB SSD/Windows 11 Home/4GB Graphics/NVIDIA GeForce GTX 1650) 15ACH6 Gaming Laptop (15.6 inch, Shadow Black, 2.25 kg)",
+  "brand": "Lenovo",
+  "specifications": "Display: 15.6-inch FHD (1920x1080), 120Hz\nMemory: 8GB RAM, 512GB SSD\nProcessor: AMD Ryzen 5 5600H\nGraphics: NVIDIA GeForce GTX 1650 4GB\nOS: Windows 11 Home\nBattery: 45Wh",
+  "amazon": {
+    "price": 58990,
+    "offers": "Bank Offer: 10% off with ICICI Credit Card. | No Cost EMI on Amazon Pay Later.",
+    "buy_link": "https://www.amazon.in/Lenovo-IdeaPad-Gaming-39-62cm-82K2025NIN/dp/B0CL5LZNVK/ref=sr_1_5?crid=3LMTSZCP9ODNE&dib=eyJ2IjoiMSJ9.lCtJxEUsJO8uDyKmfMpSGDaZLYv86x_6gO5rTZ0p2MlyvcdlMxn6PY3B_Us2SdxAJgL0lA0fXcdN1yr9_A_YeVGifBFKu5dr60t0Gioor1MfgMorGItuYH-gi6kCqkoAzXLL70lC3-ayjd4uBELUcP5bOyBPLggLI6kUidkfWNCRmIXbkiNm6AXs-nPfGeeVO14-dkq7hWAXNS44Jt-6u02_sTn1uPmTImG1IoycLcE.cqOuL0RGcGBTntD60UHqC0IA6bogDGANP6s886N_KqM&dib_tag=se&keywords=lenovo+ideapad+gaming3&nsdOptOutParam=true&qid=1745550287&sprefix=lenovo+ideapad+%2Caps%2C223&sr=8-5"
+  },
+  "flipkart": {
+    "price": 57990,
+    "offers": "Extra ₹2000 off on HDFC Credit Cards. | Get ₹1000 off on EMI transactions above ₹30,000.",
+    "buy_link": "https://www.flipkart.com/lenovo-ideapad-gaming-3-amd-ryzen-5-hexa-core-5600h-8-gb-512-gb-ssd-windows-11-home-4-graphics-nvidia-geforce-rtx-3050-15ach6-laptop/p/itm9a3d107bf049c?pid=COMG6EZ2ZFNN6GCW"
+  },
+  "croma": {
+    "price": 58990,
+    "offers": "₹2500 Instant Discount on HDFC Credit Cards. | 5% cashback via Croma app.",
+    "buy_link": "https://www.croma.com/lenovo-ideapad-gaming-3-15ach6-amd-ryzen-5-15-6-inch-8gb-512gb-windows-11-home-ms-office-2021-nvidia-geforce-gtx-1650-fhd-ips-display-shadow-black-82k2025jin-/p/274578"
+  },
+  "jiomart": {
+    "price": 57759,
+    "offers": "₹1500 Cashback on UPI. | ₹1000 off on first ICICI Credit Card payment.",
+    "buy_link": "https://www.jiomart.com/p/electronics/lenovo-yain-ideapad-gaming-3-gaming-laptop-amd-ryzen-7-6800h-16gb-512gb-ssd-nvidia-geforce-rtx-3050-graphics-windows-11-mso-full-hd-39-62-cm-15-6-inch/608678760"
+  }
+}

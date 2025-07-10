@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="search.png">
+    <link rel="stylesheet" href="edit.css">
+    <title>TechPricer - Home</title>
+</head>
+<body>
+    <!-- Header Section (Reusable across pages) -->
+    <div class="header">
+        <div class="img">
+            <img class="himg" src="search.png">
+            <span class="icon_name"><h2>TECHPRICER</h2></span>
+        </div> 
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search...">
+            <button id="search-button">Search</button> <!-- Add id for easy selection -->
+        </div>
+
+        <!-- Navigation Menu with Anchor Links -->
+        <div class="menu_area">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#footer">Help</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Price Range Filter -->
+    <div class="header1">
+        <ul class="price-range">
+            <li onclick="filterPriceRange(10000, 20000)" class="price-range-btn">Below 10,000</li>
+            <li onclick="filterPriceRange(10000, 20000)" class="price-range-btn">10,000 – 20,000</li>
+            <li onclick="filterPriceRange(20000, 30000)" class="price-range-btn">20,000 – 30,000</li>
+            <li onclick="filterPriceRange(30000, 40000)" class="price-range-btn">30,000 – 40,000</li>
+            <li onclick="filterPriceRange(40000, 50000)" class="price-range-btn">40,000 – 50,000</li>
+            <li onclick="filterPriceRange(50000, 60000)" class="price-range-btn">50,000 – 60,000</li>
+            <li onclick="filterPriceRange(60000, 70000)" class="price-range-btn">60,000 – 70,000</li>
+            <li onclick="filterPriceRange(70000, 80000)" class="price-range-btn">70,000 – 80,000</li>
+            <li onclick="filterPriceRange(80000, 100000)" class="price-range-btn">80,000 – 1,00,000</li>
+            <li onclick="filterPriceRange(100000, Infinity)" class="price-range-btn">Above 1,00,000</li>
+        </ul>
+    </div>
+
+    <!-- Unique Content for Homepage -->
+    <div class="content" id="home">
+        <div class="main_content">
+            <h2 class="main_heading">Laptop Price Navigator</h2>
+            <p style="color:rgb(255, 185, 127)">Find the Best Laptop Deals in One Click – Compare Prices Across All Platforms!</p>
+        </div>
+
+        <h1 class="services_heading" id="services">Our Services</h1>
+        <div class='services'>
+            <div class="card1">
+                <img src="card1.jpeg" class="card1_img">
+                <p>Displays laptop prices from multiple e-commerce platforms.</p>
+            </div>
+            <div class="card2">
+                <img src="card2.jpeg" class="card2_img">
+                <p>Detailed Laptop Specifications</p>
+            </div>
+            <div class="card3">
+                <img src="card3.jpeg" class="card3_img">
+                <p>Giving access to buy</p>
+            </div>
+        </div>
+
+        <div class="about us" id="about">
+            <section class="about-us">
+                <h2>About Us</h2>
+                <p>At <strong>TechPricer</strong>, we make your laptop buying journey simple, smart, and budget-friendly.</p>
+                <p>With thousands of laptops available across platforms like <strong>Amazon, Flipkart, Croma, and Reliance Digital</strong>, it's easy to get overwhelmed. That’s where we come in. TechPricer helps you <strong>compare prices, specifications, and offers</strong> from all major e-commerce sites in one place — saving you both time and money.</p>
+              
+                <h3>Why Choose Us?</h3>
+                <ul>
+                  <li><strong>Accurate Comparisons:</strong> Get up-to-date prices and specs from trusted platforms.</li>
+                  <li><strong>Exclusive Offers:</strong> See available credit/debit card discounts and special deals.</li>
+                  <li><strong>Fast & Easy Search:</strong> Filter laptops by brand, budget, and features with ease.</li>
+                  <li><strong>One-Click Buy Links:</strong> Found your perfect laptop? Go straight to the seller’s site to buy.</li>
+                </ul>
+              
+                <p>Whether you're a student, gamer, or professional, TechPricer helps you find the <strong>best laptop at the best price</strong> — no more switching tabs or missing out on deals.</p>
+              </section>
+               </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer" id="footer">
+        <div class="address">
+            Nizampet<br>
+            Hyderabad<br>
+            India
+        </div>
+        <div class="contact">
+            pricecompare@gmail.com <br>
+            +911234567890 <br>
+            @2025
+        </div>
+    </div>
+
+    <!-- JavaScript for Search and Filtering -->
+    <script>
+        // Attach event listener to the search button
+        document.getElementById('search-button').addEventListener('click', performSearch);
+
+        // Optional: Allow 'Enter' key to trigger the search
+        document.getElementById('search-input').addEventListener('keypress', function (e) {
+            if (e.key === 'Enter') {
+                performSearch();
+            }
+        });
+
+        // Function to perform search based on query and redirect to listing page
+        function performSearch() {
+            const query = document.getElementById('search-input').value.trim();  // Trim the input value to remove excess spaces
+            const minPrice = document.getElementById('min-price') ? document.getElementById('min-price').value : '';  // Optional min price
+            const maxPrice = document.getElementById('max-price') ? document.getElementById('max-price').value : '';  // Optional max price
+
+            if (query || minPrice || maxPrice) { // Check if there is any input
+                let url = 'listpage.html?';
+
+                if (query) url += `query=${encodeURIComponent(query)}&`;
+                if (minPrice) url += `min_price=${encodeURIComponent(minPrice)}&`;
+                if (maxPrice) url += `max_price=${encodeURIComponent(maxPrice)}`;
+
+                console.log("Redirect URL:", url); // Debugging line
+
+                window.location.href = url;  // Redirect to listpage with search parameters
+            } else {
+                alert('Please enter a search query or select a price range!');
+            }
+        }
+
+        // Function to filter laptops based on selected price range
+        function filterPriceRange(minPrice, maxPrice) {
+            const query = document.getElementById('search-input').value.trim();
+
+            let url = 'listpage.html?';
+
+            if (query) url += `query=${encodeURIComponent(query)}&`;
+            if (minPrice) url += `min_price=${encodeURIComponent(minPrice)}&`;
+            if (maxPrice) url += `max_price=${encodeURIComponent(maxPrice)}`;
+
+            console.log("Redirect URL:", url); // Debugging line
+
+            window.location.href = url;  // Redirect to listpage with price range filters
+        }
+    </script>
+</body>
+</html>

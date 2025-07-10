@@ -1,0 +1,11 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# MongoDB dumps
+dump/
+
+# Logs
+npm-debug.log

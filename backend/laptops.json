@@ -1,0 +1,255 @@
+[{
+    "_id": {
+      "$oid": "680a3b2ccfa326983d7c2f0a"
+    },
+    "title": "Lenovo IdeaPad Slim 3",
+    "laptop_name": "Lenovo IdeaPad Slim 3 Intel Core i5 11th Gen 1135G7 - (16 GB/512 GB SSD/Windows 11 Home) 15ITL6 Thin and Light Laptop  (15.6 inch, Arctic Grey, 1.65 Kg, With MS Office)",
+    "brand": "Lenovo",
+    "specifications": "Display: 39.62 CMS (15.6 inches), FHD IPS\nMemory: 16GB LPDDR5 RAM, 512GB SSD ROM\nProcessor: Intel Core i5-12450H 12th Generation\nOS: Windows 11\nGraphics: Integrated Intel UHD\nIncluded Software: MS Office & Student 2021\nAnti-glare Display, Non-backlit Keyboard, Precision Touch Pad\nWarranty: 1 year Onsite",
+    "amazon": {
+      "price": 49990,
+      "offers": "Additional Flat 2000 Instant Discount on SBI Bank Credit Card Txn. Minimum purchase value INR 5000, Get 5% back with Amazon Pay ICICI Bank credit card for Prime members. 3% back for others. Not applicable on EMI orders and Amazon business transactions.",
+      "buy_link": "https://www.amazon.in/Lenovo-IdeaPad-i5-12450H-Windows-83EQ0072IN/dp/B0DP7BZ8FD/ref=sr_1_1_sspa?crid=3DKX9STEZ6JOD&dib=eyJ2IjoiMSJ9.MBouekvrUAzp38Yg7tsuiH609DgUH-6Ah4kr70r7bYWP4i3ieu3u9jXHDdUWakCljZHfa64rYdGIdnIHI9cG7f9W4N19qJA_VE7irBa8A4RmFDA788XUyPQcixJdyhWuS_n0yLxrqaJlayg9SwZWQaY3oaRT5igPFi2YrJ4cyqSu6yuM4iLfIPjsbK2bDcNbTpnDQTNUjstl7_0y0UK5qxW4XUWfkySPuEia27s18bY.ZJTUqmNpcGgiSrAXR5sAB2q0vzXefyk9MfkYbMEWUNA&dib_tag=se&keywords=lenovo%2Bideapad%2Bslim%2B3%2Bi5%2B13th%2Bgen&nsdOptOutParam=true&qid=1745496866&sprefix=lenovo%2Bideapad%2B%2Caps%2C223&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1"
+    },
+    "flipkart": {
+      "price": 52999,
+      "offers": "Bank Offer 5% Unlimited Cashback on Flipkart Axis Bank Credit Card. Bank Offer 10% off up to ₹1000 on all Axis Bank Credit Card (incl. migrated ones) EMI Txns of ₹7,490 and above. Bank Offer 10% off on BOBCARD EMI Transactions, up to ₹1,500 on orders of ₹5,000 and above.",
+      "buy_link": "https://www.flipkart.com/lenovo-ideapad-slim-3-intel-core-i5-11th-gen-16-gb-512-gb-ssd-windows-11-home-15itl6-thin-light-laptop/p/itm3a8a423a53c02"
+    },
+    "croma": {
+      "price": 54390,
+      "offers": "Rs.3500 Instant Discount on ICICI Bank Credit Card on Laptop selected products. Rs.3500 Instant Discount on HDFC Bank Credit Card on Laptop selected products. Rs.3500 Instant Discount on Axis Bank Credit Card on Laptop selected products. Rs.3500 Instant Discount on SBI Credit Card on Laptop selected products.",
+      "buy_link": "https://www.croma.com/lenovo-ideapad-slim-3-15iah8-intel-core-i5-12th-gen-thin-light-laptop-16gb-512gb-ssd-windows-11-home-15-6-inch-full-hd-ips-display-ms-office-2024-arctic-grey-1-62-kg-/p/312504?utm_source=google&utm_medium=ps&utm_campaign=Sok_Standard_Shopping_CatchAll&gad_source=1&gbraid=0AAAAADv7K35ChESBHGVTS5xE9U0Zhbtem&gclid=CjwKCAjwwqfABhBcEiwAZJjC3gCdJ6rl7g8ezTc14D7pkCyBTYcAxy0hjQpS4mbew_rCyR58SBRMNhoCEPcQAvD_BwE"
+    },
+    "jiomart": {
+      "price": 75490,
+      "offers": "Assured Cashback upto ₹ 100* on 1st & 3rd transactions each using Paytm UPI. Assured Cashback upto ₹ 200* on 1st & 3rd transactions each using Paytm UPI Lite.",
+      "buy_link": "https://www.jiomart.com/p/electronics/lenovo-ideapad-slim-3-12th-gen-intel-core-i5-12450h-39-6-cm-15-6-inch-fhd-ips-thin-light-laptop-16gb-512gb-ssd-win-11-office-21-backlit-kb-alexa-built-in-3-mon-game-pass-arctic-grey-1-6kg-83er008gin/609461132"
+    }
+  },{
+    "_id": {
+      "$oid": "680a3b8ccfa326983d7c2f0c"
+    },
+    "title": "hp victus",
+    "laptop_name": "HP Victus Intel Core i5 13th Gen Gaming Laptop (16GB, 512GB SSD, Windows 11 Home, 4GB Graphics, 15.6 inch 144 Hz Full HD IPS Display, NVIDIA GeForce RTX 2050, Performance Blue, 2.29 KG)",
+    "brand": "hp",
+    "specifications": "Display: 39.62 cms (15.6 inches), Diagonal FHD\nMemory: 16GB DDR4 RAM, 512GB SSD ROM\nProcessor: Intel Core i5-13420H 13th Generation\nOS: Windows 11 Home\nGraphics: NVIDIA GeForce RTX 2050\nIncluded Software: McAfee\nWarranty: 1 Year Onsite",
+    "amazon": {
+      "price": "62990",
+      "offers": "Additional Flat 2000 Instant Discount on HDFC Bank Credit Card EMI Txn. Minimum purchase value INR 5000",
+      "buy_link": "https://www.amazon.in/HP-GeForce-Graphics-Response-15-fb0106AX/dp/B0BWS9YNCX/ref=sr_1_4?crid=E0LYHDO465JB&dib=eyJ2IjoiMSJ9.b861bprAZrz91Def_D3fXVzLMsl3ZcnX8iO8IvOarm_rrvdcTCuTJL1k9rij7qiR6BD7tY175hWRAUyb_UgP6f3XIptKW3DFus8UG30vGPGIIejEChPWbmFYGidzkpFYHCnSfiQoI2IMDm5zuwK3ithzQueDFdXnAdlZmGJOamw3TuFv4NwsIY3SwfCtV7BbUmVhyji_4o_NJXVKCbTc-LUh4XpFwxfW-B0l4canCCA.chPoZFeQX36e_U5ZsPN1-5nEniA9LV1Ft3FmrdOhAJI&dib_tag=se&keywords=hp%2Bvictus%2Bgaming%2Blaptop&nsdOptOutParam=true&qid=1745498650&sprefix=hp%2Bvictus%2Caps%2C327&sr=8-4&th=1"
+    },
+    "flipkart": {
+      "price": "64900",
+      "offers": "Bank Offer5% Unlimited Cashback on Flipkart Axis Bank Credit Card",
+      "buy_link": "https://www.flipkart.com/hp-victus-intel-core-i5-13th-gen-13420h-16-gb-512-gb-ssd-windows-11-home-4-graphics-nvidia-geforce-rtx-2050-15-fa1128tx-gaming-laptop/p/itma58b559276c72?pid=COMGYG23SJGYWF32&lid=LSTCOMGYG23SJGYWF325S7T5P&marketplace=FLIPKART"
+    },
+    "croma": {
+      "price": "63990",
+      "offers": "Rs.4500 Instant Discount on ICICI Bank Credit Card on Laptop selected products. Select the offer from “View all offers ”on payment page",
+      "buy_link": "https://www.croma.com/hp-victus-intel-core-i5-13th-gen-gaming-laptop-16gb-512gb-ssd-windows-11-home-4gb-graphics-15-6-inch-144-hz-full-hd-ips-display-nvidia-geforce-rtx-2050-performance-blue-2-29-kg-2y-acc/p/272022"
+    },
+    "jiomart": {
+      "price": "75990",
+      "offers": "Get ₹500 Off on your 1st transaction using Paytm UPI. Cashback upto ₹ 200* on 1st & 3rd transactions using Paytm UPI Lite.",
+      "buy_link": "https://www.jiomart.com/p/electronics/hp-victus-intel-core-i5-13th-gen-16gb-512gb-ssd-4gb-graphics-nvidia-geforce-rtx-2050-15-6-inch-144-hz-full-hd-ips-display-windows-11-home-2-29-kg-performance-blue-2y-warranty-15-fa1128tx/p/481086461"
+    }
+  },{
+    "_id": {
+      "$oid": "680a3bc9cfa326983d7c2f0e"
+    },
+    "title": "HP 14s",
+    "laptop_name": "HP 14s Core i3 12th Gen (8GB RAM/512GB SSD/FHD/14 (35.6 cm)/ Windows 11/ MS Office 21/Backlit Keyboard/Silver/1.46kg) dq5138TU Laptop",
+    "brand": "HP",
+    "specifications": "Display: 35.56 CMS (14 inches), FHD IPS\nMemory: 8GB DDR4 RAM, 512GB SSD ROM\nProcessor: Intel Core i3-1115G4 11th Generation\nOS: Windows 11\nGraphics: Integrated Intel UHD\nIncluded Software: None\nAnti-glare Display, Backlit Keyboard, Precision Touch Pad\nWarranty: 1 year Onsite",
+    "amazon": {
+      "price": "36990",
+      "offers": "Flat ₹1000 Instant Discount on HDFC Bank Cards. 5% back with Amazon Pay ICICI Bank credit card for Prime members.",
+      "buy_link": "https://www.amazon.in/HP-i3-1215U-14-inch-Speakers-14s-dq5138TU/dp/B0CXMX4NJ2/ref=sr_1_3?crid=2WKC7FMZR5GBL&dib=eyJ2IjoiMSJ9.Y-t5Malmvm9XjNfSTgJSo5IAwxt2KqERvwV2QgE74FJhOS3Uit4lT7knTlYuWGXjXE92Biu-mn9xLoMxGkFP_whDFIGyQyC-qWDzVz1ei7hhZeevqIBJZc7ltGKn0UnkADasGmS6rBPVunTIxDKOI_Df-1dGIF1ET1wX1vNzTR6Eu4ViokYTKddqjwklVaNRU_5Ul5xvfeajd3wYDwaoHWSHDlA4yWsupVzMrwOWMxA.ps07DeEAUnlRSRD4Chr7bvtx_LVAfTnPXJO7nXNVPSE&dib_tag=se&keywords=hp+14s&nsdOptOutParam=true&qid=1745500138&sprefix=hp+14s%2Caps%2C217&sr=8-3"
+    },
+    "flipkart": {
+      "price": "34890",
+      "offers": "Bank Offer 10% off on HDFC Bank Debit Card Transactions (up to ₹1500). Bank Offer 5% Unlimited Cashback on Flipkart Axis Bank Credit Card.",
+      "buy_link": "https://www.flipkart.com/hp-14s-intel-core-i3-12th-gen-1215u-8-gb-512-gb-ssd-windows-11-home-dy5008tu-thin-light-laptop/p/itm9643034ac6cf7?pid=COMGZ7FRHVADKQ5V&lid=LSTCOMGZ7FRHVADKQ5VWETRWD&marketplace=FLIPKART&q=hp+14s&store=6bo%2Fb5g&srno=s_1_1&otracker=search&otracker1=search&fm=organic&iid=f5d5360a-2b7d-4372-aad1-4bea5eedee4d.COMGZ7FRHVADKQ5V.SEARCH&ppt=pp&ppn=pp&ssid=0x4vcioovk0000001745500031518&qH=c9986176accfff15"
+    },
+    "croma": {
+      "price": "37990",
+      "offers": "Rs.2000 Instant Discount on HDFC Bank Credit Card. Rs.2000 Instant Discount on ICICI Bank Credit Card.",
+      "buy_link": "https://www.croma.com/hp-14s-dq5138tu-intel-core-i3-12th-gen-laptop-8gb-512gb-ssd-windows-11-home-14-inch-full-hd-ips-display-ms-office-2021-natural-silver-1-46-kg-/p/304464"
+    },
+    "jiomart": {
+      "price": "36990",
+      "offers": "Assured Cashback upto ₹ 100* on 1st & 3rd transactions each using Paytm UPI.",
+      "buy_link": "https://www.jiomart.com/p/electronics/hp-14s-core-i3-12th-gen-8gb-ram-512gb-ssd-fhd-14-35-6-cm-windows-11-ms-office-21-backlit-keyboard-silver-1-46kg-dq5138tu-laptop/611100816"
+    }
+  },{
+    "_id": {
+      "$oid": "680a3c02cfa326983d7c2f10"
+    },
+    "title": "Acer Aspire 5",
+    "laptop_name": "Acer Aspire 5 Gaming Laptop Intel Core i5 12th gen (16 GB/512 GB SSD/Win11 Home/4GB Graphics/RTX 2050) A515-57G (15.6) FHD Display, 1.8 Kg)",
+    "brand": "Acer",
+    "specifications": "Display: 39.62 CMS (15.6 inches), FHD IPS\nMemory: 8GB DDR4 RAM, 512GB SSD ROM\nProcessor: Intel Core i5-1135G7 11th Generation\nOS: Windows 11\nGraphics: Integrated Intel Iris Xe\nIncluded Software: None\nAnti-glare Display, Non-backlit Keyboard, Precision Touch Pad\nWarranty: 1 year Onsite",
+    "amazon": {
+      "price": "62990",
+      "offers": "Flat ₹2000 Instant Discount on SBI Credit Card Transactions. 5% back with Amazon Pay ICICI Bank credit card for Prime members.",
+      "buy_link": "https://www.amazon.in/Acer-12-Cores-Processor-Graphics-A515-57G/dp/B0B5KTSVTG/ref=sr_1_4?crid=21DZOF0K7PML&dib=eyJ2IjoiMSJ9.ptks-QA4ni5BzBdkC461h3Kqvsd1FDlEq7cao_j06jytNDPbVEFkVA-ymvwIihTOH39y4mrvhDzKw8nMwmizDfbbL7ZHDkPHXRFmAintSpI2VUVnjXg_O-__RWsTxUxClEU6iGvbQ3r_bvd4VhHL7FWSRaojobYFpO_f2SikSkXEMm4aFAYewWb9zzw0bJ4QzKgLb4GoC3E9pd5lgVUtg3E6klxDQ-p0SG0SyS6c1fY.D8Q9kXralIt2y_5Py9TRiO7MkhfOCtrGE2CTDCAccdU&dib_tag=se&keywords=acer%2Baspire%2B5&nsdOptOutParam=true&qid=1745500202&sprefix=acer%2Baspire%2B5%2Caps%2C217&sr=8-4&th=10"
+    },
+    "flipkart": {
+      "price": "59990",
+      "offers": "Bank Offer 10% off on HDFC Bank Credit Card EMI (up to ₹2000). Bank Offer 5% Unlimited Cashback on Flipkart Axis Bank Credit Card.",
+      "buy_link": "https://www.flipkart.com/acer-aspire-5-intel-core-i5-13th-gen-8-gb-512-gb-ssd-windows-11-home-4-graphics-nvidia-geforce-rtx-rtx-2050-gaming-laptop/p/itm2e43cbf50d0ac?pid=COMGX9ZUH4HE55BR&lid=LSTCOMGX9ZUH4HE55BRX8A8KN&marketplace=FLIPKART&q=acer+aspire+5&store=6bo%2Fb5g&srno=s_1_3&otracker=search&otracker1=search&fm=Search&iid=ba099f4c-f1d3-43b4-9d71-1d12fe7b25b0.COMGX9ZUH4HE55BR.SEARCH&ppt=sp&ppn=sp&ssid=c5top6z3jk0000001745500415444&qH=6ce8c5481beb79fa"
+    },
+    "croma": {
+      "price": "68990",
+      "offers": "Rs.3000 Instant Discount on ICICI Bank Credit Card on Laptop selected products. Rs.2000 Instant Discount on HDFC Bank Credit Card.",
+      "buy_link": "https://www.croma.com/acer-aspire-5-intel-core-i5-13th-gen-gaming-laptop-16gb-512gb-ssd-windows-11-4gb-graphics-15-6-inch-60-hz-fhd-ips-display-nvidia-geforce-rtx-2050-ms-office-2021-steel-gray-1-7-kg-/p/303718"
+    },
+    "jiomart": {
+      "price": "68990",
+      "offers": "Assured Cashback upto ₹ 100* on 1st & 3rd transactions each using Paytm UPI.",
+      "buy_link": "https://www.jiomart.com/p/electronics/acer-aspire-5-backlit-intel-core-i5-13th-gen-1335u-16-gb-512-gb-ssd-windows-11-home-a515-58m-thin-and-light-laptop-15-6-inch-steel-gray-1-75-kg-with-ms-office/611100471"
+    }
+  },{
+    "_id": {
+      "$oid": "680a3dafcfa326983d7c2f12"
+    },
+    "title": "Apple MacBook",
+    "laptop_name": "Apple MacBook Pro Apple M3 Pro - (18 GB/512 GB SSD/macOS Sonoma) MRX63HN/A  (14 Inch, Silver, 1.61 kg)",
+    "brand": "Apple",
+    "specifications": "Display: 35.56 CMS (14 inches), Liquid Retina XDR Display\nMemory: 16GB Unified RAM, 512GB SSD ROM\nProcessor: Apple M2 Pro Chip\nOS: macOS\nGraphics: Integrated Apple GPU\nIncluded Software: None\nBacklit Keyboard, Force Touch Trackpad\nWarranty: 1 year",
+    "amazon": {
+      "price": "191990",
+      "offers": "Get 10% Instant Discount on HDFC Bank Cards (EMI & Non-EMI). 5% back with Amazon Pay ICICI Bank credit card for Prime members.",
+      "buy_link": "https://www.amazon.in/Apple-MacBook-Laptop-12%E2%80%91core-16%E2%80%91core/dp/B0DLHQC28P/ref=sr_1_2_sspa?crid=5UAZ6NJDTMSV&dib=eyJ2IjoiMSJ9.E-2YqC-rMXASFzgAR1heGslo2emQ-EdEidiT0-0lxHRIKZXl44hTK5fuzVrJ2Wr7PYBW1duADluW-Shbf4R4833IbBckkLYWQR67tQCkaFa5oeABc5_VMR3uwYw-MeVLf6FSyPoodKwJu3BmFGR8FX2N-TubCMr906hwjQVqhQywEM4_zSvoXpV-x3UMPh6gWj-EcCJ8Ke4T5HqG2onFsld_0X8WrqFzLpkRTqWOcHo.VyY4i2s-dXq528zccy5HhPqMU-WAWgXflTrJQ5frl50&dib_tag=se&keywords=APPLE+MACBOOK+PRO+APPLE&nsdOptOutParam=true&qid=1745501442&sprefix=apple+macbook+pro+apple%2Caps%2C224&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"
+    },
+    "flipkart": {
+      "price": "186990",
+      "offers": "Bank Offer 5% Unlimited Cashback on Flipkart Axis Bank Credit Card. Bank Offer 10% off on ICICI Credit Card EMI.",
+      "buy_link": "https://www.flipkart.com/apple-macbook-pro-m3-18-gb-512-gb-ssd-macos-sonoma-mrx63hn-a/p/itmcd041a34ee857?pid=COMGUTX8ABUHZXJY&lid=LSTCOMGUTX8ABUHZXJYMBE0G8&marketplace=FLIPKART&q=apple+macbook+pro+14&store=6bo%2Fb5g&srno=s_1_2&otracker=AS_QueryStore_OrganicAutoSuggest_2_20_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_2_20_na_na_na&fm=Search&iid=8a9025fb-126d-4ab7-862e-fc12b34e6b03.COMGUTX8ABUHZXJY.SEARCH&ppt=sp&ppn=sp&ssid=1xrpq61ozk0000001745501322029&qH=990030902807320a"
+    },
+    "croma": {
+      "price": "209900",
+      "offers": "Rs.5000 Instant Discount on ICICI Bank Credit Card on Laptop selected products.",
+      "buy_link": "https://www.croma.com/apple-macbook-pro-14-2-inch-m4-24gb-1tb-macos-sequoia-space-black-/p/310930"
+    },
+    "jiomart": {
+      "price": "183900",
+      "offers": "Assured Cashback upto ₹ 250* on 1st & 3rd transactions each using Paytm UPI.",
+      "buy_link": "https://www.jiomart.com/p/electronics/apple-mx2h3hn-a-macbook-pro-12-core-apple-m4-pro-chip-24-gb-512-ssd-mac-os-liquid-retina-xdr-36-06-cm-14-2-inch-space-black/610616340"
+    }
+  },{
+    "_id": {
+      "$oid": "680aec5bfab23e9d5c9df705"
+    },
+    "title": "HP Pavilion x360",
+    "laptop_name": "HP Pavilion x360, 13th Gen Intel Core i5-1355U (16GB DDR4, 512GB SSD) Microsoft 365* Office24, Win11, Touchscreen,IPS, 14-inch(35.6cm) FHD Laptop, Iris Xe, Backlit, 5MP Camera, Silver,1.5kg, ek1148TU",
+    "brand": "HP",
+    "specifications": "Display: 35.56 CMS (14 inches), FHD\nMemory: 16GB DDR4 RAM, 512GB SSD ROM\nProcessor: Intel Core i5-1235U 12th Generation\nOS: Windows 11 Home\nGraphics: Intel Iris Xe\nConvertible Design, Touchscreen\nWarranty: 1 year Onsite",
+    "amazon": {
+      "price": 79990,
+      "offers": "Bank Offer: 10% Instant Discount on ICICI Bank Credit Cards for transactions above ₹5000. Additional EMI offers. 3% back with Amazon Pay ICICI Bank Credit Card for Prime members.",
+      "buy_link": "https://www.amazon.in/HP-Pavilion-i5-1355U-Microsoft-Touchscreen/dp/B0DTYGNS9P/ref=sr_1_1_sspa?crid=A4B4ZE04X6F0&dib=eyJ2IjoiMSJ9.Dhk2UiO2Gn04FvbWyIKzCJ9hsl4HefAe39A3G2xHZ7Hti0W_vCZucjmz1pI6wbn4QJtq-Odb21URGr3s1vvVpVZn3-1gk8N_4ZQyxLRlNsq62vjWP5qizY4mF9f5Uau4W1S_JFToz03HZ7yqtjaKSixaeUp-2qVbG1wd_bn9HBUl9g3-IBDtTkFojgnfvvZE71grjTszj9pSyNScoNW-PWLrwanPDjF7u9u8MJ6UENk.FAyUDumjclyFB92rcicTmEvzgvZkaM9HIX-r-YDfLHA&dib_tag=se&keywords=hp+pavilion+x360+i5+13th+gen&nsdOptOutParam=true&qid=1745546082&sprefix=hp+pavilion+x360%2Caps%2C241&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"
+    },
+    "flipkart": {
+      "price": 77990,
+      "offers": "Bank Offer 10% off on Axis Bank Credit Cards for EMI Transactions. 5% Cashback on Flipkart Axis Bank Credit Card. Up to ₹1000 Off on HDFC Bank Credit Cards for EMI Transactions.",
+      "buy_link": "https://www.flipkart.com/hp-pavilion-x360-intel-core-i5-13th-gen-1335u-16-gb-1-tb-ssd-windows-11-home-14-ek1010tu-2-1-laptop/p/itm21fc353b17eed?pid=COMGNJMCCHSS98VZ&lid=LSTCOMGNJMCCHSS98VZVUTRZQ&marketplace=FLIPKART&store=6bo%2Fb5g&srno=b_1_1&otracker=browse&fm=organic&iid=0dcc6a62-6104-4ddf-a89c-643e3116d0ea.COMGNJMCCHSS98VZ.SEARCH&ppt=None&ppn=None&ssid=jk59s62nuo0000001745546105606"
+    },
+    "croma": {
+      "price": 77990,
+      "offers": "Rs.5000 Instant Discount on HDFC Bank Debit and Credit Cards. Rs.3500 Instant Discount on ICICI Bank Credit Cards.",
+      "buy_link": "https://www.croma.com/hp-pavilion-x360-intel-core-i5-13th-gen-14-inch-16gb-1tb-windows-11-home-ms-office-2021-intel-iris-xe-full-hd-ips-display-natural-silver-7n760pa-/p/270528"
+    },
+    "jiomart": {
+      "price": 82000,
+      "offers": "Get Assured Cashback on UPI Payments with Paytm. Upto ₹1000 Cashback on Orders above ₹5000.",
+      "buy_link": "https://www.jiomart.com/p/electronics/hp-pavilion-x360-15-fh0015au-2-in-1-laptop-amd-ryzen-5-7530u-16-gb-512-gb-ssd-amd-radeon-graphics-windows-11-home-mso-fhd-39-6cm-15-6-inch/603880664"
+    }
+  },{
+    "_id": {
+      "$oid": "680aeeb51b84df3cedf86f24"
+    },
+    "title": "MSI GF63 Thin",
+    "laptop_name": "MSI GF63 Thin Intel Core i5 12th Gen 12450H - (16 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce RTX 3050/144 Hz) Thin GF63 12UC-846IN Gaming Laptop  (15.6 inch, Black, 1.86 g)",
+    "brand": "MSI",
+    "specifications": "Display: 15.6-inch FHD\nMemory: 16GB RAM, 512GB SSD\nProcessor: Intel Core i5-12450H\nOS: Windows 11 Home\nGraphics: NVIDIA GeForce RTX 3050\nBattery: 3-Cell 51 Wh",
+    "amazon": {
+      "price": 62999,
+      "offers": "Bank Offer: 10% Instant Discount on ICICI Credit Cards. No Cost EMI on select cards.",
+      "buy_link": "https://www.amazon.in/MSI-i7-11800H-Windows-GeForce-11UC-1293IN/dp/B0C6F5PSFW/ref=sr_1_3?dib=eyJ2IjoiMSJ9.GltKakv2VmbU9aC98NQSMMpbJvXOsCPX79IM8b3n1e1KuFzrRyqv9Mbhz_3FOqHJawqt_1fEH52ubUaBRx1uxppCp8olL6X15SXsu_Pg2yLdUMyIES1myzMf9pbkIntob6ucbJG-pzfACGH6hUs5fNgwnKu3pggJv2mIQePqhvyFxJiVCaTuE5F4STW_13zbNDrg0PuFvIeBestzJT1wSTvebBvhheuVzRJMbVeSeKo.32hIA36Zvi30SaXi6jWk-vSn2t0HwJeQv6xKPntrcp0&dib_tag=se&keywords=msi+gaming+gf63+thin&nsdOptOutParam=true&qid=1745546629&sr=8-3"
+    },
+    "flipkart": {
+      "price": 63990,
+      "offers": "Flat ₹2000 Off on HDFC Credit Cards. Get ₹1000 off on EMI purchases.",
+      "buy_link": "https://www.flipkart.com/msi-gf63-thin-intel-core-i5-12th-gen-12450h-16-gb-512-gb-ssd-windows-11-home-4-graphics-nvidia-geforce-rtx-3050-144-hz-12uc-846in-gaming-laptop/p/itm523261b42e46b"
+    },
+    "croma": {
+      "price": 65990,
+      "offers": "Rs.3000 Instant Discount on ICICI Bank Credit Cards. Rs.2000 Cashback on HDFC Credit Cards.",
+      "buy_link": "https://www.croma.com/msi-thin-15-b13uc-2019in-intel-core-i7-13th-gen-gaming-laptop-16gb-512gb-ssd-windows-11-home-4gb-graphics-15-6-inch-144-hz-fhd-ips-level-display-nvidia-geforce-rtx-3050-ms-office-2021-cosmos-gray-1-86-kg-/p/306661"
+    },
+    "jiomart": {
+      "price": 67000,
+      "offers": "Get ₹1500 Cashback on UPI Payments. ₹500 Off on Orders Above ₹5000.",
+      "buy_link": "https://www.jiomart.com/p/electronics/msi-katana-gf66-12ucok-gaming-laptop/601415441"
+    }
+  },{
+    "_id": {
+      "$oid": "680afa838d0c1749c38c8912"
+    },
+    "title": "ASUS VivoBook 15",
+    "laptop_name": "ASUS VivoBook 15 Intel Celeron N4020 - (8GB RAM/256GB SSD/Windows 11 Home) X515MA-BR024WS Thin and Light Laptop (15.6 inch, Transparent Silver, 1.8 kg)",
+    "brand": "ASUS",
+    "specifications": "Display: 15.6-inch HD (1366x768)\nMemory: 8GB RAM, 256GB SSD\nProcessor: Intel Celeron N4020\nOS: Windows 11 Home\nBattery: 2-Cell 37 Wh\nWeight: 1.8 kg",
+    "amazon": {
+      "price": 24990,
+      "offers": "Bank Offer: 5% Instant Discount with Amazon Pay ICICI Credit Card. | No Cost EMI available on Bajaj Finserv, HDFC & ICICI Credit Cards.",
+      "buy_link": "https://www.amazon.in/ASUS-Vivobook-Integrated-Graphics-X515MA-BR022WS/dp/B0CH4SV8D6"
+    },
+    "flipkart": {
+      "price": 23490,
+      "offers": "Flat ₹1000 off on Axis Bank Credit Cards. | Get extra ₹500 off on prepaid orders above ₹20,000.",
+      "buy_link": "https://www.flipkart.com/asus-vivobook-15-intel-celeron-quad-core-n4020-4-gb-256-gb-ssd-windows-11-home-x515ma-br011w-thin-light-laptop/p/itmee696f665be05"
+    },
+    "croma": {
+      "price": 25990,
+      "offers": "Rs.1000 Instant Discount on HDFC Credit Cards. | Additional ₹500 off via Croma App on first purchase.",
+      "buy_link": "https://www.croma.com/asus-vivobook-15-intel-core-i3-12th-gen-laptop-8gb-512gb-ssd-windows-11-home-15-6-inch-full-hd-led-backlit-display-ms-office-2021-quiet-blue-1-7-kg-/p/275130"
+    },
+    "jiomart": {
+      "price": 27500,
+      "offers": "₹750 Cashback on UPI payment. | ₹500 Off on Orders above ₹10,000 using ICICI Credit Cards.",
+      "buy_link": "https://www.jiomart.com/p/electronics/asus-vivobook-go-15-2023-amd-ryzen-3-7320u-15-6-inch-39-62-cm-fhd-thin-light-laptop-8gb-512gb-ssd-windows-11-office-2021-alexa-built-in-mixed-black-1-63-kg-e1504fa-nj322ws/610805165"
+    }
+  },{
+    "_id": {
+      "$oid": "680b114496bfcc205903673f"
+    },
+    "title": "Lenovo IdeaPad Gaming 3",
+    "laptop_name": "Lenovo IdeaPad Gaming 3 AMD Ryzen 5 5600H - (8GB RAM/512GB SSD/Windows 11 Home/4GB Graphics/NVIDIA GeForce GTX 1650) 15ACH6 Gaming Laptop (15.6 inch, Shadow Black, 2.25 kg)",
+    "brand": "Lenovo",
+    "specifications": "Display: 15.6-inch FHD (1920x1080), 120Hz\nMemory: 8GB RAM, 512GB SSD\nProcessor: AMD Ryzen 5 5600H\nGraphics: NVIDIA GeForce GTX 1650 4GB\nOS: Windows 11 Home\nBattery: 45Wh",
+    "amazon": {
+      "price": 58990,
+      "offers": "Bank Offer: 10% off with ICICI Credit Card. | No Cost EMI on Amazon Pay Later.",
+      "buy_link": "https://www.amazon.in/Lenovo-IdeaPad-Gaming-39-62cm-82K2025NIN/dp/B0CL5LZNVK/ref=sr_1_5?crid=3LMTSZCP9ODNE&dib=eyJ2IjoiMSJ9.lCtJxEUsJO8uDyKmfMpSGDaZLYv86x_6gO5rTZ0p2MlyvcdlMxn6PY3B_Us2SdxAJgL0lA0fXcdN1yr9_A_YeVGifBFKu5dr60t0Gioor1MfgMorGItuYH-gi6kCqkoAzXLL70lC3-ayjd4uBELUcP5bOyBPLggLI6kUidkfWNCRmIXbkiNm6AXs-nPfGeeVO14-dkq7hWAXNS44Jt-6u02_sTn1uPmTImG1IoycLcE.cqOuL0RGcGBTntD60UHqC0IA6bogDGANP6s886N_KqM&dib_tag=se&keywords=lenovo+ideapad+gaming3&nsdOptOutParam=true&qid=1745550287&sprefix=lenovo+ideapad+%2Caps%2C223&sr=8-5"
+    },
+    "flipkart": {
+      "price": 57990,
+      "offers": "Extra ₹2000 off on HDFC Credit Cards. | Get ₹1000 off on EMI transactions above ₹30,000.",
+      "buy_link": "https://www.flipkart.com/lenovo-ideapad-gaming-3-amd-ryzen-5-hexa-core-5600h-8-gb-512-gb-ssd-windows-11-home-4-graphics-nvidia-geforce-rtx-3050-15ach6-laptop/p/itm9a3d107bf049c?pid=COMG6EZ2ZFNN6GCW"
+    },
+    "croma": {
+      "price": 58990,
+      "offers": "₹2500 Instant Discount on HDFC Credit Cards. | 5% cashback via Croma app.",
+      "buy_link": "https://www.croma.com/lenovo-ideapad-gaming-3-15ach6-amd-ryzen-5-15-6-inch-8gb-512gb-windows-11-home-ms-office-2021-nvidia-geforce-gtx-1650-fhd-ips-display-shadow-black-82k2025jin-/p/274578"
+    },
+    "jiomart": {
+      "price": 57759,
+      "offers": "₹1500 Cashback on UPI. | ₹1000 off on first ICICI Credit Card payment.",
+      "buy_link": "https://www.jiomart.com/p/electronics/lenovo-yain-ideapad-gaming-3-gaming-laptop-amd-ryzen-7-6800h-16gb-512gb-ssd-nvidia-geforce-rtx-3050-graphics-windows-11-mso-full-hd-39-62-cm-15-6-inch/608678760"
+    }
+  }
+  
+]
